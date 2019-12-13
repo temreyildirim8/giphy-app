@@ -3,34 +3,14 @@ import { updateObject } from "../generics/utility";
 
 const INITIAL_STATE = {
   loading: false,
-  availabilityResponse: {},
-  selectedJourney: {},
-  errorCode: "",
-  errorMessage: ""
+  trendingGiphs: {}
 };
 
 const dashboardReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case ActionTypes.CLOSE_DRAWER:
-      return updateObject(
-        state,
-        {},
-        {
-          loading: true
-        }
-      );
-    case ActionTypes.OPEN_DRAWER:
+    case ActionTypes.APP_OPENED:
       return updateObject(state, INITIAL_STATE, {
-        availabilityResponse: action.availabilityResponse
-      });
-    case ActionTypes.LOGIN_CALL_START:
-      return updateObject(state, INITIAL_STATE, {
-        errorCode: action.errorCode,
-        errorMessage: action.errorMessage
-      });
-    case ActionTypes.LOGIN_FAILED:
-      return updateObject(state, INITIAL_STATE, {
-        selectedJourney: action.selectedJourney
+        trendingGiphs: action.payload.trendingGiphs
       });
     default:
       return state;
@@ -38,3 +18,4 @@ const dashboardReducer = (state = INITIAL_STATE, action) => {
 };
 
 export default dashboardReducer;
+
