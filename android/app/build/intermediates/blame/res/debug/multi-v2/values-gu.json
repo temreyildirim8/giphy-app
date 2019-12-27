@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\development\\js-projects\\react-native-app\\androidFirst\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "/Users/fibabanka006309/Desktop/emre-js/git-uploads/giphy-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7f228053fec470e0d4ce166b1192266c\\res\\values-gu\\values-gu.xml",
+                    "source": "/Users/fibabanka006309/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/de77644bf31b0491a2e70b7e074ac0d6/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2169100b68024fa79fb0d2ec97f2f312\\res\\values-gu\\values-gu.xml",
+                    "source": "/Users/fibabanka006309/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9fc771d0b41d18b8f167d78e8000687c/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,3 +1,3 @@
-# giphy-app
+# giphyApp
 
 it is on development...

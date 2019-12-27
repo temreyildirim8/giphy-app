@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\development\\js-projects\\react-native-app\\androidFirst\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/Users/fibabanka006309/Desktop/emre-js/git-uploads/giphy-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\7f228053fec470e0d4ce166b1192266c\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/Users/fibabanka006309/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/de77644bf31b0491a2e70b7e074ac0d6/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

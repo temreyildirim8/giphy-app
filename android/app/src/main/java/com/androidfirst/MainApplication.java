@@ -1,4 +1,4 @@
-package com.androidfirst;
+package com.giphyApp;
 
 import android.app.Application;
 
