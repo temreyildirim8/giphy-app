@@ -30,7 +30,6 @@ class Dashboard extends Component {
           {this.props.trendingGiphs && this.props.trendingGiphs.map(giph => (
               <Image src={giph.url} />
           ))}
-              <Text>ÖNDY</Text>
         </View>
     );
   }

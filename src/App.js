@@ -13,6 +13,7 @@ import thunk from "redux-thunk";
 
 import Routes from './routes/Routes';
 import dashboardReducer from './store/reducers/dashboardReducer'
+import Results from '../src/screens/Results/Results';
 
 // Combine all reducers
 const rootReducer = combineReducers({
@@ -42,7 +43,8 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Routes />
+        {/* <Routes /> It is commented to show page design in Results page */}
+        <Results />
       </Provider>
     );
   }
